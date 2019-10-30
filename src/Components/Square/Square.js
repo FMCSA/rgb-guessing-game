@@ -7,7 +7,6 @@ class Square extends Component {
     this.state = {
       color: undefined
     };
-    this.clickSquare = this.clickSquare.bind(this);
   }
 
   componentDidMount() {
