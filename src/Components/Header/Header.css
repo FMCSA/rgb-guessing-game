@@ -1,0 +1,35 @@
+.header {
+  background-color: #51aba0;
+  padding: 1rem;
+  text-transform: uppercase;
+}
+
+.header__title {
+  color: white;
+  font-size: 2.7rem;
+}
+
+.header__author {
+  font-size: 1rem;
+  color: rgb(206, 206, 155);
+}
+
+.header__framework {
+  font-size: 1rem;
+}
+
+.header__rgbdisplay {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 768px) {
+  .header__title {
+    color: white;
+    font-size: 1.4rem;
+  }
+
+  .header_rgbdisplay {
+    font-size: 1.5rem;
+  }
+}

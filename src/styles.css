@@ -1,0 +1,52 @@
+.App {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #161515ec;
+  text-align: center;
+}
+
+button {
+  color: rgb(60, 158, 93);
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(60, 158, 93);
+}
+
+button:active {
+  color: white;
+  background-color: rgb(60, 158, 93);
+}
+
+button:focus {
+  outline: none;
+}
+
+.squares-container {
+  display: flex;
+  flex-flow: wrap;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.square__elem {
+  width: 30%;
+  margin: 5px;
+  padding-bottom: 30%;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: red;
+}
+
+@media only screen and (max-width: 768px) {
+  button {
+    font-size: 0.8rem;
+  }
+}

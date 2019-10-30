@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.selected {
+  background: #3c9e5d;
+  color: white;
+}
